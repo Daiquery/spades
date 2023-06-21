@@ -6,7 +6,7 @@ import createCardDeck from "./utils/createCardDeck";
 function App() {
   const [deck, setDeck] = useState([]);
   const players = [
-    {initial: "A", hand: []}, {initial: "A", hand: []}, {initial: "A", hand: []}, {initial: "A", hand: []},
+    {initial: "A", hand: []}, {initial: "B", hand: []}, {initial: "C", hand: []}, {initial: "D", hand: []},
   ];
 
   const distributeCards = () => {

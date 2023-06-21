@@ -17,7 +17,7 @@ function Card({ type, value }) {
   };
 
   return (
-    <div className="card">
+    <div className="card" onClick={() => setIsShowing(!isShowing)}>
       {isShowing ? (
         <div className="front">
           <h1>{iconMap[type]}</h1>
